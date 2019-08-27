@@ -1,0 +1,42 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    max-width: 1330px;
+    margin: 0 auto;  
+}
+
+.container-custom {
+    max-width: 1330px;
+    margin: 0 auto;
+    height: 70px;
+                                                                                      
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .flex-inner{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 80px
+}
+
+.row.tabs{
+    height: 50px;
+    background-color:#fff ;
+    margin: 1% 0;
+    line-height: 50px;
+        div{
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .tab_picked{
+            border-bottom: 2px solid red;
+        }
+
+}

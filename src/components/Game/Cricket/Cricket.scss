@@ -1,0 +1,73 @@
+
+.card{
+    width: 400px;
+    height: 139px;
+    background-color: #ffffff;
+    color: #969696;
+  
+    font-size: 8pt;
+    margin: 2% 2%;
+    .card-header-match{
+        height: 16px;
+        padding: 2% 3%;
+        
+    }
+   
+   .card-body{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+        
+       .card-left-content,.card-right-content{
+        display: flex;
+        width: 25%;
+        justify-content: space-between;
+           img{
+               width: 50px;
+               height: 50px;
+           }
+           .team-name-container{
+            margin: 12% 0%;
+           .team-name{
+              color:#000;
+             
+           }
+        }
+       }
+      
+    }
+    .card-footer{
+        height: 28px;
+        width: 100%;
+        background-color: #C10000;
+        display: flex;
+        justify-content: space-between;
+        padding: 2px 19px;
+        color: white;
+        font-size: 11pt;
+    }
+
+
+}
+.load-more{
+    font-family: 'nowayregular';
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #00B137;
+    border-radius: 4px;
+    /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05); */
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 12px 0px;
+    display: inline-block;
+    max-width: 282px;
+    width: 100%;
+    border: 1px solid #00B137;
+}

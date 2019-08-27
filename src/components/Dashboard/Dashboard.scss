@@ -1,0 +1,46 @@
+.card-container{
+    background-color: #f0f0f0;
+    height:400px;
+    padding: 1% 2%;
+    margin-top: 2%;
+    overflow-y: scroll;
+        .bet-card{
+            width: 80%;
+            background-color: #ffffff;
+            height: 20%;
+            padding: 1% 2%;
+            margin: 2% auto;
+            -webkit-box-shadow: 20px 24px 14px -14px rgba(199,199,199,1);
+            -moz-box-shadow: 20px 24px 14px -14px rgba(199,199,199,1);
+            box-shadow: 20px 24px 14px -14px rgba(199,199,199,1);
+            border-left: 5px solid red;
+            display: flex;
+            justify-content: space-between;
+            line-height: 50px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        h2{
+            font-weight: bold;
+            text-align: center;
+            color: rgb(30, 82, 8);
+        }
+        .match-status-won{
+            background-color: rgb(8, 185, 8);
+            width: 100px;
+            padding: 0px 0px;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center
+        }
+        .match-status-current{
+            background-color: rgb(185, 34, 8);
+            width: 100px;
+            padding: 0px 0px;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center
+        }
+}

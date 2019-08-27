@@ -1,0 +1,108 @@
+.banner-container {
+  background: url("../../images/banner.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  height:320px;
+
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+  }
+ 
+  header {
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+
+    .logo_box {
+      display: inline-block;
+      width: 180px;
+      margin: 30px 30px;
+      img {
+        width: 120px!important;
+        height: 30px;
+      }
+    }
+    .right_user_info {
+      width: 443px;
+      color:#ffffff;
+      font-size: 8pt;
+          ul li {
+            float: left;
+            list-style: none;
+            padding: 35px 10px;
+            a{
+             &:hover{
+              background-color: #ffffff;
+              color: #000
+            }    
+          }   
+          }
+    }
+    a{
+      color: blue;  
+    }
+    .login_register{
+      a{
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        padding: 10px;
+        border-radius: .5rem;
+      }
+    }
+  }
+
+  .banner{
+      .banner-content-left{
+          width: 10%;
+          align-content: flex-start;
+          img{
+              height:260px;
+              margin-top:-15%;
+          }
+      }
+      .banner-content-middle{
+        width: 34%;
+        color: #ffffff;
+        font-size: 20pt;
+        text-align: center;
+        margin-left: -150px;
+        img{
+            height:90px;
+            
+        }
+        .icc-logo{
+          margin: 2% 0;
+        p{
+            color: #ffffff
+            }
+        }
+        .download-app{
+          margin: 0 15px;
+          font-size: 12pt;
+             img{
+               width: 180px;
+               height: 50px;
+               cursor: pointer;
+             }
+        }
+        .ad-message{
+          p{
+            font-size: 14pt;
+            color: #ffffff;
+          }
+        }
+        .playnow{
+          font-size: 10pt;
+          margin: 1% 0%;
+          a{
+          color: #ffffff!important;
+          }
+        }
+    }
+          
+  }
+}
